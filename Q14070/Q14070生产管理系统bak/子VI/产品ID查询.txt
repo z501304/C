@@ -1,0 +1,29 @@
+SELECT ZCID,
+[WH01Date1], 
+[WH03Date1], 
+[WH03Date2], 
+[WH03Date3], 
+[WH03Date4], 
+[WH03Date5], 
+[WH08Date1], 
+[WH09Date1], 
+[WH09Date2], 
+[WH09Date3], 
+[WH09Date4], 
+[WH09Date5], 
+[WH13Date1]
+FROM dbo.ZCTable 
+where ZCID like '%AAA%' or 
+WH01Date1 like '%AAA%' or 
+WH03Date1 like '%AAA%' or 
+WH03Date2 like '%AAA%' or 
+WH03Date3 like '%AAA%' or 
+WH03Date4 like '%AAA%' or 
+WH03Date5 like '%AAA%' or 
+WH08Date1 like '%AAA%' or 
+WH09Date1 like '%AAA%' or 
+WH09Date2 like '%AAA%' or 
+WH09Date3 like '%AAA%' or 
+WH09Date4 like '%AAA%' or 
+WH09Date5 like '%AAA%' or 
+WH13Date1 like '%AAA%'

@@ -1,0 +1,3 @@
+SELECT 壳体条码, 本工位合格
+FROM dbo.B030
+where 壳体条码 like '%AAA%'

@@ -1,0 +1,3 @@
+SELECT TOP 1000 [SXBID]
+      ,[ZCID]
+  FROM [Q14070].[dbo].[SXBTable]
